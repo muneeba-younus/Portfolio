@@ -1,0 +1,71 @@
+@font-face{
+    font-family: BalooBhaina2-SemiBold;
+    src: url(Fonts/BalooBhaina2-SemiBold.ttf);
+}
+*{
+    margin-bottom: 1mm;
+    font-family: BalooBhaina2-SemiBold;
+}
+body{
+    background: url(Images/bg.jfif);
+    align-self: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+fieldset{
+    border: 3px solid rgb(0, 0, 0);
+    float: center;
+    margin: 0cm auto; 
+    width: 45%;
+    background-color: rgba(9, 16, 80, 0.274)
+}
+div.imagesaylani
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: rgb(14, 1, 1);
+    text-decoration: underline;
+    font-family: monospace;
+}
+div.div1 {
+    float: left;
+}
+div.div2 {
+    padding-left: 4cm;
+}
+div.div3 {
+    text-align: center;
+}
+div.green{
+    font-size: 1.1cm;
+      text-align: center;
+      font-size: 30px;
+      color: green;
+      font-family: BalooBhaina2-SemiBold;
+}
+div.purple{
+    color:purple;
+    font-size: 30px;
+    text-align: center;
+    font-family: BalooBhaina2-SemiBold;
+}
+div.goback{
+    color:purple;
+    font-size: 40px;
+    text-align: center;
+    font-family: BalooBhaina2-SemiBold;
+}
+div.page2{
+    margin-top: 10%;
+    top: 20%;
+    left: 25%;
+}
+div.image
+{
+    text-align: center;
+    size: 40px;
+}

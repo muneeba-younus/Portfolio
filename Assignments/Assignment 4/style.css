@@ -1,0 +1,558 @@
+@font-face {
+    font-family: Ribeye-Regular;
+    src: url(Fonts/Ribeye-Regular.ttf);
+}
+
+@font-face {
+    font-family: IndieFlower-Regular;
+    src: url(Fonts/IndieFlower-Regular.ttf);
+}
+
+@font-face {
+    font-family: Acme-Regular;
+    src: url(Fonts/Acme-Regular.ttf);
+}
+
+@font-face {
+    font-family: Caveat-Bold;
+    src: url(Fonts/Caveat-Bold.ttf);
+}
+
+@font-face {
+    font-family: PatrickHand-Regular;
+    src: url(Fonts/PatrickHand-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+
+.navbar-dark .navbar-brand h1 {
+    font-family: Ribeye-Regular;
+    color: rgb(233, 213, 213);
+    font-weight: 100;
+    font-size: 100%;
+}
+
+.navbar-nav li a:hover {
+    border: 2px solid rgb(91, 71, 81);
+    transition: 0.5s all;
+}
+
+/* Navigation Bar */
+
+/* Carousel */
+
+.carousel-item {
+    max-height: 800px;
+    max-width: 100% !important;
+}
+
+/* Carousel */
+
+/* Welcome Section */
+
+.welcome-section {
+    background-color: seashell;
+}
+
+.welcome-section h2 {
+    font-family: Acme-Regular;
+    color: rgb(218, 108, 108);
+    padding-top: 40px;
+    text-align: center;
+    display: block;
+}
+
+.welcome-section h5 {
+    font-family: Ribeye-Regular;
+    color: rgb(218, 108, 108);
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+}
+
+.welcome-section p {
+    font-family: Caveat-Bold;
+    color: rgb(90, 83, 83);
+    margin-top: 20px;
+    text-align: center;
+    padding: 2% 10%;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-size: 20px;
+}
+
+/* Welcome Section */
+
+/* Our Specialities */
+
+#parallax-image-special {
+    background-image: url(Images/special-image.jpg);
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+#parallax-image-special h1 {
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px black;
+    color: white;
+    font-weight: 200;
+    font-size: 50px;
+    font-family: Caveat-Bold;
+    letter-spacing: 4px;
+}
+
+#parallax-image-special h4 {
+    font-family: Caveat-Bold;
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    text-shadow: 2px 2px rgb(218, 108, 108);
+    margin-bottom: 20px;
+}
+
+.specialities-image {
+    width: 300px !important;
+    height: 200px !important;
+    border-radius: 20px;
+}
+
+.special-names {
+    font-family: IndieFlower-Regular;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px rgb(218, 108, 108);
+}
+
+/* Our Specialities */
+
+/* Reservation */
+
+#parallax-image-reservation {
+    background-image: url(Images/bg-reservation.jpg);
+    height: 730px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax-image-reservation>form {
+    margin: 4% 15%;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 40px 30px;
+    max-width: 75%;
+    color: white;
+}
+
+#parallax-image-reservation h1 {
+    padding-top: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px white;
+    color: black;
+    font-weight: 200;
+    font-size: 50px;
+    font-family: Caveat-Bold;
+}
+
+#parallax-image-reservation h4 {
+    font-family: Caveat-Bold;
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    text-shadow: 2px 2px rgb(218, 108, 108);
+}
+
+/* Reservation */
+
+/* About */
+
+#parallax-image {
+    background-image: url(Images/bg-foodlove.jpg);
+    height: 730px;
+    margin-bottom: 2px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax-image h1 {
+    margin-top: 70px;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px white;
+    color: black;
+    font-weight: 200;
+    font-size: 70px;
+    font-family: Caveat-Bold;
+}
+
+#parallax-image h5 {
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: Caveat-Bold;
+    color: white;
+    font-size: 40px;
+}
+
+#parallax-image p {
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: PatrickHand-Regular;
+    color: white;
+    text-align: center;
+    margin: 10px 50px;
+    font-size: 25px;
+}
+
+/* About */
+
+/* Menu */
+
+#parallax-image-menu1 {
+    background-image: url(Images/icon1.png);
+    height: 150px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#parallax-image-menu2 {
+    background-image: url(Images/icon2.png);
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#parallax-image-menu3 {
+    background-image: url(Images/icon4.png);
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#parallax-image-menu4 {
+    background-image: url(Images/icon3.png);
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#parallax-image-menu5 {
+    background-image: url(Images/icon5.png);
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#parallax-image-menu6 {
+    background-image: url(Images/icon6.png);
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#parallax-image-menu1>h3, #parallax-image-menu2>h3, #parallax-image-menu3>h3, #parallax-image-menu4>h3, #parallax-image-menu5>h3, #parallax-image-menu6>h3 {
+    font-family: PatrickHand-Regular;
+    font-size: 50px;
+    margin: 12% 2%;
+    color: white;
+    font-weight: 300;
+    text-shadow: 2px 2px rgb(218, 108, 108);
+}
+
+.wrapper {
+    margin: 10px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.columns {
+    margin: 10px 0;
+}
+
+.card_group {
+    width: 100%;
+    height: 60%;
+}
+
+.Card {
+    border-radius: 5px;
+    width: 230px;
+    height: 100%;
+    background-color: #212121;
+}
+
+.card_image {
+    width: 100%;
+}
+
+.card_image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card_content {
+    padding: 0 20px;
+}
+
+.card_content h4 {
+    color: white;
+    font-family: Acme-Regular;
+    font-weight: 200;
+    margin: 15px 0;
+}
+
+.card_button {
+    padding: 0 10px;
+    color: #f4511e;
+    text-align: center;
+}
+
+.card_button a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    background-color: #f4511e;
+    border-radius: 50px;
+}
+
+/* Menu */
+
+/* Image Gallery */
+
+.gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-row .column {
+    flex: 33.3%;
+    width: auto;
+    overflow: hidden;
+    padding: 0 4px;
+    height: 100%;
+}
+
+.gallery-row .column img {
+    margin-top: 2%;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    filter: grayscale(1) brightness(0.5);
+    border-radius: 5px;
+    transition: 0.3s linear;
+}
+
+.gallery-row .column img:hover {
+    filter: grayscale(0) brightness(1);
+}
+
+/* Image Gallery*/
+
+/* Contact us*/
+
+.contact-form {
+    margin: 4% 15%;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px 30px;
+    max-width: 75%;
+    color: white;
+}
+
+.contact-us {
+    margin: 10% 0;
+}
+
+.contact-us h1 {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 70px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px white;
+    color: black;
+    font-weight: 200;
+    font-family: Caveat-Bold;
+}
+
+.contact-us h4 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 2px 2px white;
+    color: rgb(218, 108, 108);
+    font-weight: 100;
+    margin-top: 20px;
+    word-spacing: 10px;
+    font-family: Acme-Regular;
+    border-collapse: collapse;
+}
+
+/* Contact us*/
+
+/*Footer*/
+
+.footer {
+    margin: 20px 0;
+    padding-bottom: 20px;
+}
+
+.footer>h3 {
+    font-family: Acme-Regular;
+    color: rgb(218, 108, 108);
+    text-align: left;
+    display: block;
+    margin-left: 12%;
+}
+
+.footer>ul {
+    text-align: center;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none !important;
+    color: white;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+a:visited, a:hover {
+    color: white !important;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none !important;
+}
+
+.footer-sec3-icons {
+    color: white;
+    font-size: 20px;
+    height: 30px;
+    margin-right: 19px;
+    line-height: 30px;
+    color: white;
+    border-radius: 50%;
+}
+
+.last-sec {
+    background-color: rgb(218, 108, 108);
+    ;
+    color: white;
+    font-size: small;
+    padding-bottom: 10px;
+}
+
+/*Footer*/
+
+/* Media Queries */
+
+@media only screen and (max-width:800px) {
+    .gallery-row .column {
+        flex: 50%;
+    }
+    .gallery-row .column img {
+        filter: grayscale(0) brightness(0.4);
+    }
+    body {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .gallery-row .column {
+        flex: 10%;
+    }
+    #parallax-image-reservation>form {
+        background-color: rgba(0, 0, 0, 0.9);
+        max-width: 100% !important;
+        color: white;
+    }
+    .cards {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #parallax-image {
+        background-image: url(Images/bg-foodlove.jpg);
+        height: 500px;
+        margin-bottom: 2px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #parallax-image h1 {
+        margin-top: 80px;
+        font-size: 50px;
+        text-transform: uppercase;
+        text-shadow: 2px 2px white;
+        color: black;
+        font-weight: 200;
+        font-size: 50px;
+        font-family: Caveat-Bold;
+    }
+    #parallax-image h5 {
+        background-color: rgba(0, 0, 0, 0.4);
+        font-family: Caveat-Bold;
+        color: white;
+        font-size: 20px;
+    }
+    #parallax-image p {
+        background-color: rgba(0, 0, 0, 0.4);
+        font-family: PatrickHand-Regular;
+        color: white;
+        text-align: center;
+        margin: 10px 40px;
+        font-size: 18px;
+    }
+}
+
+/* Media Queries */
